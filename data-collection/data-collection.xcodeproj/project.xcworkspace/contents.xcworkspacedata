@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:data-collection.xcodeproj">
+      location = "self:/Users/rachelzhang/Documents/new start/data-collection/data-collection.xcodeproj">
    </FileRef>
 </Workspace>

@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Data Collection</string>
+	<string>Snapper</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -24,10 +24,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.esri.arcgisruntime.exampleapps.data-collection</string>
+			<string>com.esri.arcgisruntime.exampleapps.snapper</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>data-collection</string>
+				<string>snapper</string>
 			</array>
 		</dict>
 	</array>

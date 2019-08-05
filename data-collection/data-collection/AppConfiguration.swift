@@ -18,8 +18,8 @@ import ArcGIS
 class AppConfiguration {
     
     /// The ID of your portal's [web map](https://runtime.maps.arcgis.com/home/item.html?id=16f1b8ba37b44dc3884afc8d5f454dd2).
-    static let webMapItemID = "16f1b8ba37b44dc3884afc8d5f454dd2"
-    
+   // static let webMapItemID = "ead18448904c4654b4fa46188c379a01"
+    static let webMapItemID = "fcf7ca8dec054b06b074123843e8a23d"
     /// The base portal's domain.
     /// This is used to both build a `URL` to your portal as well as the base URL string used to check reachability.
     /// - Note: exclude `http` or `https`, this is configured in `basePortalURL`.
@@ -47,7 +47,7 @@ class AppConfiguration {
     /// The App's URL scheme.
     /// - The URL scheme must match the scheme in the **Current Redirect URIs** section of the **Authentication** tab within the [Dashboard of the ArcGIS for Developers site](https://developers.arcgis.com/applications).
     /// - The URL scheme must match the URL scheme in the **URL types** of the Xcode project configuration.
-    static let urlScheme: String = "data-collection"
+    static let urlScheme: String = "snapper"
     
     /// The App's URL auth path.
     /// - The URL scheme must match the path in the **Current Redirect URIs** section of the **Authentication** tab within the Dashboard of the Developers site.
@@ -69,7 +69,7 @@ class AppConfiguration {
     /// - The client ID is used by oAuth to authenticate a user.
     /// - The client ID can be found in the **Credentials** section of the **Authentication** tab within the [Dashboard of the ArcGIS for Developers site](https://developers.arcgis.com/applications).
     /// - Note: Change this to reflect your organization's client ID.
-    static let clientID: String = "h3em0ifYNGfz3uHX"
+    static let clientID: String = "UuNIDqgh1XDvze3P"
 }
 
 // MARK: Portal From Configuration
